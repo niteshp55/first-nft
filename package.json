@@ -1,0 +1,31 @@
+{
+  "name": "my-nft",
+  "version": "1.0.0",
+  "description": "My First NFT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niteshp55/first-nft.git"
+  },
+  "keywords": [
+    "NFT"
+  ],
+  "author": "Nitesh Padghan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niteshp55/first-nft/issues"
+  },
+  "homepage": "https://github.com/niteshp55/first-nft#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.6.8"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.3",
+    "dotenv": "^10.0.0"
+  }
+}
